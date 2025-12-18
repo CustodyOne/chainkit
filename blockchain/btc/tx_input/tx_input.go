@@ -7,7 +7,7 @@ import (
 	"fmt"
 	"sort"
 
-	"github.com/CustodyOne/chainkit/factory/blockchains/registry"
+	"github.com/CustodyOne/chainkit/factory/protocols/registry"
 	xc "github.com/CustodyOne/chainkit/types"
 	"github.com/shopspring/decimal"
 	log "github.com/sirupsen/logrus"
