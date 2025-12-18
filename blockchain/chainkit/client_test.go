@@ -45,7 +45,7 @@ func (s *ChainkitTestSuite) TestFetchTxInput() {
 	b0, _ := json.MarshalIndent(txInput, "", "\t")
 
 	txInputEnvelope := &xc.TxInputEnvelope{
-		Type:    xc.BlockchainEVM,
+		Type:    xc.ProtocolEVM,
 		TxInput: b0,
 	}
 
